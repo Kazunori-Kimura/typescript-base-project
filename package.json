@@ -1,0 +1,18 @@
+{
+  "name": "typescript-project-base",
+  "version": "1.0.0",
+  "description": "typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc --sourceMap --noImplicitAny --target es5 --module commonjs --out lib/index.js lib/index.ts"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "kazunori.kimura.js@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^1.4.1"
+  }
+}
